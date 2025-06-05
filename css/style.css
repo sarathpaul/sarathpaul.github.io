@@ -1,9 +1,18 @@
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: "Nunito", sans-serif;
+}
+
+@layer components {
+    .students-imagsize {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .students-row {
+        display: flex;
+        justify-content: space-around;
+    }
 }
