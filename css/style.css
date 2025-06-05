@@ -33,4 +33,10 @@ body {
         font-weight: 400;
         color: #FFFFFF;
     }
+     @media screen and (min-width: 1600px) {
+        .students-imagsize {
+            width: 250px;
+            height: 250px;
+        }
+    }
 }
