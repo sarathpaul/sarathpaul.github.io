@@ -8,11 +8,29 @@ body {
 
 @layer components {
     .students-imagsize {
-        max-width: 200px;
-        max-height: 200px;
+        width: 200px;
+        height: 200px;
     }
     .students-row {
         display: flex;
         justify-content: space-around;
+    }
+    .achievement-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-left: 4px solid #F7BE2C;
+        padding-left: 22px;
+    }
+    .achievement-item h2 {
+        font-size: 56px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .achievement-item p {
+        font-size: 24px;
+        font-weight: 400;
+        color: #FFFFFF;
     }
 }
